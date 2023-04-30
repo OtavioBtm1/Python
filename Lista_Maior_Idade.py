@@ -1,4 +1,4 @@
-qtd = 20
+qtd = int(input("Digite a quantidade de pessoas: "))
 pessoas = []
 b = 0
 
