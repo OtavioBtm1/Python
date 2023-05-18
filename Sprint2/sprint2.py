@@ -25,6 +25,9 @@ if opc == "1":
                     adm_passinput = input("Digite sua senha: ")
                     if adm_passinput == admpass:
                         print("\n*****Login efetuado com sucesso!******\n")
+
+                        esc=input("Digite a região que você gostaria de verificar:\n1. Zona Norte\n2. Zona Oeste\n3. Zona Sul\n4. Zona Leste\n ")
+                        
                     else:
                         print("Senha incorreta!")
                     break
